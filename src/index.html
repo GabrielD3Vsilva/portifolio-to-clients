@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="output.css">
+    <title>Document</title>
+</head>
+<body class="bg-neutral-950">
+
+    <header class="bg-neutral-900 fixed top-0 left-0 right-0 z-50 p-1">
+        <div class="flex justify-evenly items-center p-6">
+            <p class="text-xl font-black text-white ">porti<span class="text-red-700">fólio</span></p>        
+
+            <ul class="hidden gap-5 md:flex">
+                <li><a href="#home" class="text-gray-200 hover:bg-red-700 py-2 px-4 rounded-sm transition-all ease-in-out ">Início</a></li>
+                <li><a href="#about" class="text-gray-200 hover:bg-red-700 py-2 px-4 rounded-sm transition-all ease-in-out ">Sobre</a></li>
+                <li><a href="#skills" class="text-gray-200 hover:bg-red-700 py-2 px-4 rounded-sm transition-all ease-in-out ">Habilidades</a></li>
+                <li><a href="#projects" class="text-gray-200 hover:bg-red-700 py-2 px-4 rounded-sm transition-all ease-in-out ">Projetos</a></li>
+            </ul>
+
+            <ion-icon name="menu-outline" class="md:hidden btnOpenMenu text-white text-4xl py-2 px-4"></ion-icon>
+
+        </div>
+
+        <div class="hidden md:hidden py-10 menu">
+            <ul class="text-center">
+                <li><a href="#home" class="text-gray-200 hover:bg-red-700 py-2 px-4 rounded-sm transition-all ease-in-out block">Início</a></li>
+                <li><a href="#about" class="text-gray-200 hover:bg-red-700 py-2 px-4 rounded-sm transition-all ease-in-out block">Sobre</a></li>
+                <li><a href="#skills" class="text-gray-200 hover:bg-red-700 py-2 px-4 rounded-sm transition-all ease-in-out block">Habilidades</a></li>
+                <li><a href="#projects" class="text-gray-200 hover:bg-red-700 py-2 px-4 rounded-sm transition-all ease-in-out block">Projetos</a></li>
+             </ul>
+        </div>
+    </header>
+
+    <main class="py-52" id="home">
+        <div class="flex flex-col justify-center text-center  gap-y-4 text-white">
+                <div>
+                    <h1 class="md:text-2xl text-lg">Seja <span class="text-red-700">bem-vindo(a)</span> ao meu portifólio</h1>
+                    <h2 class="md:text-2xl text-lg" >Eu sou Gabriel e sou <span class="text-red-700">desenvolvedor web</span>.</h2>
+                </div>
+
+                <div class="">
+                    <a href="#" class="px-4 py-2 border-2 border-red-700 hover:bg-red-700 rounded-sm font-bold hover:border-white transition-all ease-in-out">Github</a>
+
+                    <a href="#projects" class="px-4 py-2 border-2 border-red-700 hover:bg-red-700 rounded-sm font-bold hover:border-white transition-all ease-in-out">Ir aos projetos</a>
+                </div>
+
+        </div>
+        <hr id="about" class="mt-40">
+    </main>
+
+
+    <section class="-mt-20">
+        <div class="flex justify-center flex-col">
+            <h3 class="text-center text-2xl md:text-3xl text-white mb-6"><span class="text-red-700">Sobre</span> mim</h3>
+
+
+            <div class=" px-5 py-4 md:px-20">
+                <p class="text-white md:text-lg">
+                    Olá! Meu nome é Gabriel. Nasci em Osasco, mas atualmente moro em Taubaté. Sou um desenvolvedor web desde 2022.
+
+                    Minha jornada no mundo da programação começou com HTML, CSS e JavaScript. Com o tempo, aprimorei minhas habilidades e explorei outras tecnologias. Tailwind CSS se tornou meu aliado para criar interfaces elegantes e responsivas. Node.js me permitiu desenvolver aplicativos do lado do servidor, enquanto Bootstrap facilitou a criação de layouts consistentes.
+
+                    Além disso, mergulhei no mundo dos bancos de dados. MongoDB me atraiu com sua flexibilidade e escalabilidade, enquanto MySQL me proporcionou uma base sólida para sistemas relacionais.
+                </p>
+            </div>
+
+        </div>
+
+        <hr id="skills" class="mt-40 mb-10">
+    </section>
+
+
+
+    <section class="pt-16">
+        <div class="flex flex-col">
+            <h3 class="text-center text-2xl md:text-3xl text-white mb-6">Alguns de meus <span class="text-red-700">conhecimentos</span></h3>
+
+            <div class="py-10 flex gap-12 flex-col mx-auto ">
+                <div class="flex flex-row gap-4">
+                    <div class="text-white text-center hover:text-red-700 transition-all ease-in-out">
+                        <ion-icon name="logo-html5" class="text-7xl md:text-9xl "></ion-icon>
+                        <h4 class="text-lg md:text-xl">HTML</h4>
+                    </div>
+    
+                    <div class="text-white text-center hover:text-red-700 transition-all ease-in-out">
+                        <ion-icon name="logo-css3" class="text-7xl md:text-9xl"></ion-icon>
+                        <h4 class="text-lg md:text-xl">CSS</h4>
+                    </div>
+    
+                    <div class="text-white text-center hover:text-red-700 transition-all ease-in-out">
+                        <ion-icon name="logo-javascript" class="text-7xl md:text-9xl"></ion-icon>
+                        <h4 class="text-lg md:text-xl">JS</h4>
+                    </div>
+
+                    <div class="text-white text-center hover:text-red-700 transition-all ease-in-out">
+                        <ion-icon name="git-branch-outline" class="text-7xl md:text-9xl"></ion-icon> 
+                        <h4 class="text-lg md:text-xl">GIT</h4>
+                    </div>
+                </div>
+
+                <div class="flex flex-row gap-4">
+                    <div class="text-white text-center hover:text-red-700 transition-all ease-in-out">
+                        <ion-icon name="logo-nodejs" class="text-7xl md:text-9xl "></ion-icon>
+                        <h4 class="text-lg md:text-xl">NODE</h4>
+                    </div>
+    
+    
+                    <div class="text-white text-center hover:text-red-700 transition-all ease-in-out">
+                        <ion-icon name="logo-react" class="text-7xl md:text-9xl"></ion-icon>
+                        <h4 class="text-lg md:text-xl">REACT</h4>
+                    </div>
+    
+                    <div class="text-white text-center hover:text-red-700 transition-all ease-in-out">
+                        <ion-icon name="logo-github" class="text-7xl md:text-9xl"></ion-icon>
+                        <h4 class="text-lg md:text-xl">GITHUB</h4>
+                    </div>
+
+                    <div class="text-white text-center hover:text-red-700 transition-all ease-in-out">
+                        <ion-icon name="logo-npm" class="text-7xl md:text-9xl"></ion-icon>
+                        <h4 class="text-lg md:text-xl">NPM</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <hr class="mt-40 mb-10" id="projects">
+    </section>
+
+
+    <section class="pt-16">
+        <div class="flex flex-col gap-16">
+            <h3 class="text-center text-2xl md:text-3xl text-white mb-6">Meus <span class="text-red-700">projetos</span></h3>
+
+
+            <div class="flex justify-center flex-col gap-y-6">
+                <div class="flex justify-center flex-wrap gap-y-6 md:gap-4">
+                    <div class=" flex justify-center">
+                        <div class="border-2 border-white rounded-md p-8 flex flex-col gap-5">
+                            <h4 class="text-2xl text-white">Landing-page <span class="text-red-700">temática restaurante de saladas</span></h4>
+        
+                            <p class="text-white md:text-lg">Descubra a frescura das nossas saladas na nossa landing page vibrante e <br> intuitiva, criada com HTML, Tailwind e CSS. Aproveite a experiência de navegação <br> fluida enquanto explora nosso menu saudável e colorido.</p>
+        
+                            <div class="pt-10">
+                                <a href="#" class="px-4 py-2 border-2 border-red-700 hover:bg-red-700 rounded-sm font-bold hover:border-white transition-all ease-in-out text-white">Executar projeto</a>
+        
+                                <a href="#" class="px-4 py-2 border-2 border-red-700 hover:bg-red-700 rounded-sm font-bold hover:border-white transition-all ease-in-out text-white">Ver código</a>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class=" flex justify-center">
+                        <div class="border-2 border-white rounded-md py-8 px-8 md:px-16 flex flex-col gap-5">
+                            <h4 class="text-2xl text-white">Landing-page <span class="text-red-700">temática lanchonete</span></h4>
+        
+                            <p class="text-white md:text-lg">Nossa WebSalads é um verdadeiro banquete para os olhos e o paladar.<br> Desenvolvida com HTML, Bootstrap e CSS, nossa landing page<br> oferece uma experiência de navegação fluida  e deliciosa. </p>
+        
+                            <div class="pt-10">
+                                <a href="#" class="px-4 py-2 border-2 border-red-700 hover:bg-red-700 rounded-sm font-bold hover:border-white transition-all ease-in-out text-white">Executar projeto</a>
+        
+                                <a href="#" class="px-4 py-2 border-2 border-red-700 hover:bg-red-700 rounded-sm font-bold hover:border-white transition-all ease-in-out text-white">Ver código</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="">
+                    <div class=" flex justify-center">
+                        <div class="border-2 border-white rounded-md py-8 px-8 md:px-16 flex flex-col gap-5">
+                            <h4 class="text-2xl text-white">One-page <span class="text-red-700">temática curiosidades sobre tecnologia</span></h4>
+        
+                            <p class="text-white md:text-lg">Fique por dentro de algumas curiosidades sobre tecnologia através desse site <br> construido com HTML e CSS, Aproveite a experiência de navegação <br> fluida.</p>
+        
+                            <div class="pt-10">
+                                <a href="#" class="px-4 py-2 border-2 border-red-700 hover:bg-red-700 rounded-sm font-bold hover:border-white transition-all ease-in-out text-white">Executar projeto</a>
+        
+                                <a href="#" class="px-4 py-2 border-2 border-red-700 hover:bg-red-700 rounded-sm font-bold hover:border-white transition-all ease-in-out text-white">Ver código</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flex justify-center flex-wrap gap-y-6 md:gap-4">
+                    <div class=" flex justify-center">
+                        <div class="border-2 border-white rounded-md p-8 flex flex-col gap-5">
+                            <h4 class="text-2xl text-white">One-page <span class="text-red-700">temática curiosidades sobre tecnologia</span></h4>
+        
+                            <p class="text-white md:text-lg">Fique por dentro de algumas curiosidades sobre tecnologia através desse site <br> construido com HTML e CSS, Aproveite a experiência de navegação <br> fluida.</p>
+        
+                            <div class="pt-10">
+                                <a href="#" class="px-4 py-2 border-2 border-red-700 hover:bg-red-700 rounded-sm font-bold hover:border-white transition-all ease-in-out text-white">Executar projeto</a>
+        
+                                <a href="#" class="px-4 py-2 border-2 border-red-700 hover:bg-red-700 rounded-sm font-bold hover:border-white transition-all ease-in-out text-white">Ver código</a>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class=" flex justify-center">
+                        <div class="border-2 border-white rounded-md py-8 px-8 md:px-16 flex flex-col gap-5">
+                            <h4 class="text-2xl text-white">Landing-page <span class="text-red-700">temática lanchonete</span></h4>
+        
+                            <p class="text-white md:text-lg">Nossa WebSalads é um verdadeiro banquete para os olhos e o paladar.<br> Desenvolvida com HTML, Tailwind e CSS, nossa landing page<br> oferece uma experiência de navegação fluida  e deliciosa. </p>
+        
+                            <div class="pt-10">
+                                <a href="#" class="px-4 py-2 border-2 border-red-700 hover:bg-red-700 rounded-sm font-bold hover:border-white transition-all ease-in-out text-white">Executar projeto</a>
+        
+                                <a href="#" class="px-4 py-2 border-2 border-red-700 hover:bg-red-700 rounded-sm font-bold hover:border-white transition-all ease-in-out text-white">Ver código</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+
+
+
+
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="openMenuResponsive.js"></script>
+</body>
+</html>
